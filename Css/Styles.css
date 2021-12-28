@@ -1,0 +1,106 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(215, 51%, 70%);
+    margin: 15% 8%;
+    font-family: 'Outfit', sans-serif;
+}
+
+h1, span {
+    color: hsl(0, 0%, 100%);
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+hr {
+    width: 100%;
+    border-style: solid;
+    border-width: 1px 0 0 0;
+}
+
+p {
+    font-weight: 300;
+}
+
+.Card {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 467px;
+    align-items: center;
+    padding: 25px 25px;
+    width: 264px;
+    margin: auto;
+}
+
+.ethtext {
+    color: hsl(178, 100%, 50%);
+}
+
+.AvatarPic {
+    border: solid white;
+    border-radius: 30px;
+    border-width: 1px;
+    height: 36px;
+    float: left;
+    margin-right: 14px;
+}
+
+.AvatarBlock {
+    width: 100%;
+    padding-top: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.AvatarName {
+    display: inline-block;
+    margin: 0;
+}
+
+.MainImg {
+    height: 264px;
+    width: 264px;
+}
+
+.Eqimg {
+    border-radius: .5rem;
+    width: 100%;
+}
+
+.EqActive {
+    position: relative;
+    height: 264px;
+    width: 264px;
+    border-radius: .5rem;
+    bottom: 268px;
+}
+
+.EqActive:hover {
+    background-color: hsl(178, 100%, 50%);
+    opacity: 50%;
+}
+
+.Stats {
+    font-weight: 400;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0 72px;
+    padding-bottom: 8px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+span:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
